@@ -1,20 +1,12 @@
-/***** theme customize *****/
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap");
+
 :root {
    --main-color: #272b30;
    --seconde-color: #32383e;
    --color-text: #fff;
    --btn-main-color: #272729;
 }
-
-.badge-color {
-   background-color: var(--seconde-color);
-}
-
-/***** End theme customize *****/
-
-/***** Global *****/
-@import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap");
 
 body {
    font-family: "Comfortaa", cursive;
@@ -50,6 +42,10 @@ ul {
    transition: color 0.5s;
 }
 
+.badge-color {
+   background-color: var(--seconde-color);
+}
+
 ::-webkit-scrollbar {
    width: 0.625rem;
 }
@@ -64,9 +60,9 @@ ul {
    box-shadow: 0 0 5px rgb(0 0 0 / 0.5) inset;
 }
 
-/***** End Global *****/
 
-/***** Home *****/
+/* H O M E */
+
 .home .card {
    filter: grayscale(0.7);
    transition: transform 0.5s, filter 0.5s 0.1s;
@@ -91,9 +87,9 @@ nav {
    box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
 }
 
-/***** End Home *****/
 
-/***** Details *****/
+/* D E T A I L S */
+
 .details {
    background-color: #272729be;
 
@@ -101,9 +97,9 @@ nav {
    min-height: 100vh;
 }
 
-/***** End Details *****/
 
-/***** Loader *****/
+/* L O A D E R */
+
 .loading {
    position: fixed;
    z-index: 9999;
@@ -149,5 +145,3 @@ nav {
       transform: rotate(360deg);
    }
 }
-
-/***** End Loader *****/
